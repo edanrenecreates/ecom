@@ -1,3 +1,6 @@
+@import './layout.scss';
+@import './headernavbar.scss';
+
 html {
     font-size: 62.5%; // 1rem is 10px
 }
@@ -26,3 +29,4 @@ body {
     display: grid;
     justify-items: center;
 }
+
