@@ -23,7 +23,7 @@ class SignInForm extends Component {
         },
         {
           _id: 2,
-          title: 'Fort password?',
+          title: 'Forgot password?',
           onClick: () => console.log('Forgot password')
         }
     ]
@@ -43,7 +43,7 @@ class SignInForm extends Component {
           component={FormInput}/>
           <div className="sign-in-form__line"></div>
           <Field className='sign-in-form__login' 
-          onClick= {() => console.log('Trying to submit')}
+          onClick={() => history.push('/account')}
           type='submit'
           title='Login'           
           name='login'
