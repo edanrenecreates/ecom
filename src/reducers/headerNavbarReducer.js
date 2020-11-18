@@ -6,18 +6,20 @@ import {
 const INITIAL_STATE = {
   headerLinks: [
     {
-      title: 'Another title'
+      title: 'Shop'
     },
     {
-      title: 'Another title too'
+      title: 'Logout'
     }
   ],
   navbarLinks: [
     {
-      title: 'account'
+      title: 'Account',
+      active: true
     },
     {
-      title: 'purchases'
+      title: 'Purchases',
+      active: false
     }
   ]
 }
