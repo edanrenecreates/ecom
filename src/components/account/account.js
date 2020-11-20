@@ -33,7 +33,7 @@ class Account extends Component {
     let jsx;
     if (this.props.navbarLinks) {
       this.props.navbarLinks.forEach(link => {
-        if (link.active) {
+        if(link.active) {
           jsx = link.component;
         }
       })
