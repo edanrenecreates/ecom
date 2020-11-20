@@ -9,6 +9,11 @@
 @import './page-title';
 @import './form-fields';
 @import './details';
+@import 'account/account-information';
+@import 'account/purchase-history';
+@import 'account/account';
+
+
 html {
     font-size: 62.5%; // 1rem is 10px
 }
