@@ -1,21 +1,7 @@
-// font-family: 'Open Sans', sans-serif;
-// font-family: 'Open Sans Condensed', sans-serif;
-// font-family: 'Titillium Web', sans-serif;
-@import './layout';
-@import './headernavbar';
-@import './auth/signin';
-@import './auth/signup';
-
-@import './page-title';
-@import './form-fields';
-@import './details';
-@import 'account/account-information';
-@import 'account/purchase-history';
-@import 'account/account';
 
 
 html {
-    font-size: 62.5%; // 1rem is 10px
+    font-size: 62.5%;
 }
 
 *,
@@ -24,24 +10,23 @@ html {
     margin: 0;
     padding: 0;
     box-sizing: inherit;
-    font-family: 'Open Sans';
 }
 
 body {
-    overflow-x: hidden;
-    font-weight: normal;
-    box-sizing: border-box;
+    font-family: "Open Sans";
     color: #808080;
-
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-rendering: optimizeLegibility;
-    -webkit-tap-highlight-color: transparent;
 }
 
-.app {
-    margin-top: 2rem;
-    display: grid;
-    justify-items: center;
-}
 
+@import 'layout';
+@import 'headernavbar';
+@import 'auth/signin';
+@import 'auth/signup';
+
+@import 'page-title';
+@import 'form-fields';
+@import 'details';
+
+@import 'account/account';
+@import 'account/purchase-history';
+@import 'account/account-information';

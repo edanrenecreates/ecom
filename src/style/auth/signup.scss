@@ -2,9 +2,9 @@
     grid-row: content-s/content-e;
     grid-column: s/e;
 
-    // &__page-title {
+    &__page-title {
 
-    // }
+    }
 
     &__form {
         display: grid;
@@ -15,22 +15,19 @@
 }
 
 .sign-up-form {
-  & > * {
-    grid-column: 1/-1;
-  }
-
+    & > * {
+        grid-column: 1/-1;
+    }
     &__name {
         grid-row: name-s/name-e;
     }
     &__email {
-        margin-top: 15px;
         grid-row: email-s/email-e;
     }
     &__password {
         grid-row: password-s/password-e;
     }
     &__confirm {
-        margin-top: 15px;
         grid-row: confirm-s/confirm-e;
     }
 
@@ -44,13 +41,12 @@
         grid-column: create-s/create-e;
     }
     &__back {
-      grid-row: buttons-s/buttons-e;
-      grid-column: back-s/back-e;
+        grid-row: buttons-s/buttons-e;
+        grid-column: back-s/back-e;
     }
     &__details {
-      grid-row: 1/-1;
-      
-      justify-self: end;
-      align-self: start;
+        grid-row: 1/-1;
+        justify-self: end;
+        align-self: start;
     }
 }

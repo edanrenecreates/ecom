@@ -1,13 +1,13 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 
-export class AccountInformation extends Component {
-  render() {
-    return (
-      <div>
-        Account Info
-      </div>
-    )
-  }
+class AccountInformation extends Component {
+    render() {
+        return (
+            <div>
+                account info
+            </div>
+        )
+    }
 }
 
-export default AccountInformation
+export default AccountInformation;
