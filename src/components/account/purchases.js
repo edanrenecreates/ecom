@@ -11,19 +11,24 @@ class Purchases extends Component {
 
   render() {
     const { className } = this.props;
+
     return (
-       <div className={`${className}purchases`}>
-         {
-           this.props.purchases.map(purchase => {
-              return <div>{purchase.title}</div>
-           })
-         }
-       </div>
+      <div className={`${className} purchases`}>
+        {
+          this.props.purchases.map(purchase => {
+            return (
+              <div key={purchase._id} className='purchases__purchase purchase'>
+                <img className='purchase__img' src='https://source.unsplash.com/random/80x80' />
+              </div>
+            )
+          })
+        }
+      </div>
     )
   }
 }
 
-function mapStateToProps(state){
+function mapStateToProps(state) {
   const { purchases } = state.user;
   return { purchases };
 }
