@@ -64,7 +64,7 @@ export function fetchShopProducts() {
     payload: [
       {
         _id: 0,
-        title: 'JavaScript in the Browswer',
+        title: 'JavaScript in the Browser',
         description: 'Messenger bag lo-fi chartreuse gluten-free fam distillery. Fixie swag tilde +1 lyft vape cloud bread vaporware in. Exercitation ipsum est, sartorial velit tumblr paleo hammock veniam pork belly',
         price: 1.99,
         belongsTo: [0, 1]
