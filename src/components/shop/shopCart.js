@@ -25,7 +25,7 @@ let productsJSX = products.map(product => <h1 key={product}>{product}</h1>)
 }
 
 function CartFooter({className, products}) {
-  const price = '$7.99';
+  const price = '7.99';
   return (
     <div className={`${className} cart-footer`}>
       <a className='cart-footer__checkout'>
