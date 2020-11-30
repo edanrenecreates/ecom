@@ -50,12 +50,6 @@
   }
 }
 
-
-
-
-
-
-
 .shop-product__back {
   height: 314px;
   width: 240px;
@@ -95,6 +89,8 @@
   }
   &__add-to-cart{
     justify-self: end;
+    grid-row: footer-s/footer-e;
+
     height: 40px;
     width: 97px;
     border-radius: 20px;
@@ -102,14 +98,15 @@
     background-color: #00cb79;
     font-size: 12px;
     font-weight: 600;
+
     display: grid;
     justify-items: center;
     align-items: center;
 
-    grid-row: footer-s/footer-e;
+    transition: all .3s ease;
+
     &:hover {
       transform: scale(0.97);
-      transition: all .3s ease;
     }
     &:active {
       transform: scale(0.9);
