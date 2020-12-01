@@ -8,7 +8,7 @@ class ShopProduct extends Component {
     return (
       <div className='shop-product'>
         <div className='shop-product__front'>
-          <img className='shop-product__front-image' src='https://source.unsplash.com/random/220x220'/>
+          <img className='shop-product__front-image' src='https://source.unsplash.com/collection/1103088/220x220'/>
           <div className='shop-product__front__title'>{title}</div>
         </div>
         <div className='shop-product__back'>
