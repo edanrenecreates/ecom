@@ -67,49 +67,56 @@ export function fetchShopProducts() {
         title: 'JavaScript in the Browser',
         description: 'Messenger bag lo-fi chartreuse gluten-free fam distillery. Fixie swag tilde +1 lyft vape cloud bread vaporware in. Exercitation ipsum est, sartorial velit tumblr paleo hammock veniam pork belly',
         price: 1.99,
-        belongsTo: [0, 1]
+        belongsTo: [0, 1],
+        imageUrl: 'https://source.unsplash.com/random/80x80'
       },
       {
         _id: 1,
         title: 'Graph Database',
         description: 'Messenger bag lo-fi chartreuse gluten-free fam distillery. Fixie swag tilde +1 lyft vape cloud bread vaporware in. Exercitation ipsum est, sartorial velit tumblr paleo hammock veniam pork belly',
         price: 1.99,
-        belongsTo: [0, 6]
+        belongsTo: [0, 6],
+        imageUrl: 'https://source.unsplash.com/random/80x80'
       },
       {
         _id: 2,
         title: 'Fullstack Development',
         description: 'Messenger bag lo-fi chartreuse gluten-free fam distillery. Fixie swag tilde +1 lyft vape cloud bread vaporware in. Exercitation ipsum est, sartorial velit tumblr paleo hammock veniam pork belly',
         price: 1.99,
-        belongsTo: [0,1,4]
+        belongsTo: [0,1,4],
+        imageUrl: 'https://source.unsplash.com/random/80x80'
       },
       {
         _id: 3,
         title: 'JavaScript Development',
         description: 'Messenger bag lo-fi chartreuse gluten-free fam distillery. Fixie swag tilde +1 lyft vape cloud bread vaporware in. Exercitation ipsum est, sartorial velit tumblr paleo hammock veniam pork belly',
         price: 1.99,
-        belongsTo: [0, 1]
+        belongsTo: [0, 1],
+        imageUrl: 'https://source.unsplash.com/random/80x80'
       },
       {
         _id: 4,
         title: 'User-Interface Design',
         description: 'Messenger bag lo-fi chartreuse gluten-free fam distillery. Fixie swag tilde +1 lyft vape cloud bread vaporware in. Exercitation ipsum est, sartorial velit tumblr paleo hammock veniam pork belly',
         price: 1.99,
-        belongsTo: [0, 2]
+        belongsTo: [0, 2],
+        imageUrl: 'https://source.unsplash.com/random/80x80'
       },
       {
         _id: 5,
         title: 'User-Experience Design',
         description: 'Messenger bag lo-fi chartreuse gluten-free fam distillery. Fixie swag tilde +1 lyft vape cloud bread vaporware in. Exercitation ipsum est, sartorial velit tumblr paleo hammock veniam pork belly',
         price: 1.99,
-        belongsTo: [0, 2]
+        belongsTo: [0, 2],
+        imageUrl: 'https://source.unsplash.com/random/80x80'
       },
       {
         _id: 6,
         title: 'Advanced OOP',
         description: 'Messenger bag lo-fi chartreuse gluten-free fam distillery. Fixie swag tilde +1 lyft vape cloud bread vaporware in. Exercitation ipsum est, sartorial velit tumblr paleo hammock veniam pork belly',
         price: 1.99,
-        belongsTo: [0, 6]
+        belongsTo: [0, 6],
+        imageUrl: 'https://source.unsplash.com/random/80x80'
       }
     ]
   })

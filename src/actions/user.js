@@ -30,7 +30,8 @@ export function fetchCartProducts() {
                     title: 'JavaScript in the Browser',
                     description: 'Messenger bag lo-fi chartreuse gluten-free fam distillery. Fixie swag tilde +1 lyft vape cloud bread vaporware in. Exercitation ipsum est, sartorial velit tumblr paleo hammock veniam pork belly',
                     price: 1.99,
-                    belongsTo: [0, 1]
+                    belongsTo: [0, 1],
+                    imageUrl: 'https://source.unsplash.com/random/80x80'
                 },
                 quantity: 2
             },
@@ -41,7 +42,8 @@ export function fetchCartProducts() {
                     title: 'Graph Database',
                     description: 'Messenger bag lo-fi chartreuse gluten-free fam distillery. Fixie swag tilde +1 lyft vape cloud bread vaporware in. Exercitation ipsum est, sartorial velit tumblr paleo hammock veniam pork belly',
                     price: 1.99,
-                    belongsTo: [0, 6]
+                    belongsTo: [0, 6],
+                    imageUrl: 'https://source.unsplash.com/random/80x80'
                 },
                 quantity: 3
             }
