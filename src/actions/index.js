@@ -31,5 +31,6 @@ export {
     fetchShopCategories,
     fetchShopProducts,
     filterProductsWithCategoryId,
+
     filterProductsWithQuery
 };

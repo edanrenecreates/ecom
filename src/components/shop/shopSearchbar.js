@@ -2,30 +2,29 @@ import React, { Component } from 'react';
 
 import { reduxForm, Field } from 'redux-form';
 
-function FormSearchBar(props){
-  return(
-    <div className='search-bar-grid'>
-      <i className="fas fa-search search-bar-grid__icon"></i>
-      <input className={`${props.className} form-search-bar search-bar-grid__input`} {...props.input} type='text' placeholder={`${props.placeholder}`} />
-    </div>
-    
-  )
-}
-
-
-class ShopSearchbar extends Component {
-  render() {
-    const { className, handleSubmit } = this.props;
+function FormSearchBar(props) {
     return (
-      <form onSubmit={handleSubmit} className={`${className} shop-search-bar`}>
-        <Field name='query' className='shop-search-bar__form-search-bar' placeholder='Search' component={FormSearchBar}/>
-      </form>
+        <div className='search-bar-grid'>
+            <i className="fas fa-search search-bar-grid__icon"></i>
+            <input className={`${props.className} form-search-bar search-bar-grid__input`} {...props.input} type='text' placeholder={`${props.placeholder}`} />
+        </div>
     )
-  }
 }
 
-ShopSearchbar = reduxForm({
-  form: 'ShopSearchBar'
-})(ShopSearchbar);
 
-export default ShopSearchbar;
+class ShopSearchBar extends Component {
+    render() {
+        const { className, handleSubmit } = this.props;
+        return (
+            <form onSubmit={handleSubmit} className={`${className} shop-search-bar`}>
+                <Field name='query' className='shop-search-bar__form-search-bar' placeholder='Search' component={FormSearchBar} />
+            </form>
+        )
+    }    
+}
+
+ShopSearchBar = reduxForm({
+    form: 'ShopSearchBar'
+})(ShopSearchBar);
+
+export default ShopSearchBar;

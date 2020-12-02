@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
-import PageTitle from '../pageTitle'
-import AccountInformationForm from './accountInformationForm'; 
+import PageTitle from '../pageTitle';
+import AccountInformationForm from './accountInformationForm';
 
 class AccountInformation extends Component {
 

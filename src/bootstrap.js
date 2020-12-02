@@ -29,7 +29,7 @@ function main() {
             <Route path='/signup' exact component={Signup}/>
 
             <Route path='/account' exact component={Account}/>
-            
+
             <Route path='/shop' exact component={Shop}/>
             <Route path='/order/review' exact component={Review}/>
           </Switch>
