@@ -46,7 +46,6 @@ class ShippingForm extends Component {
           component={FormInput} />
 
         <div className='shipping-form__line'></div>
-
         <Field className='shipping-form__use-this-address'
           onClick={() => history.push('/information/payment')}
           type='submit'
