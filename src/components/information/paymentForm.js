@@ -6,6 +6,7 @@ import { FormInput, FormButton } from '../formFields';
 
 import history from '../../history';
 import OrderSummary from './orderSummary';
+import { UnderLinedTitle } from './infoHelp';
 
 class PaymentForm extends Component {
   render() {
@@ -53,6 +54,12 @@ class PaymentForm extends Component {
           short={true}
           component={FormButton} />
         <OrderSummary className='payment-form__order-summary' />
+        <div className='payment-form__shipping-info shipping-info'>
+          <UnderLinedTitle className='shipping-info__title' title='Shipping to'/>
+          <div className='shipping-info__name small-text'>Your Name</div>
+          <div className='shipping-info__address small-text'>123 Main Street</div>
+          <div className='shipping-info__zipcode small-text'>Anytown, UT 84123</div>
+        </div>
       </form>
     )
   }
